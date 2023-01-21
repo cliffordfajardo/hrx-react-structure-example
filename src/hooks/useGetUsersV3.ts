@@ -1,5 +1,5 @@
 import { useQuery } from "react-query";
-import { getUser } from "../services/UserServices";
+import { getUser } from "../services/UserService";
 
 export const useGetUsersV3 = () => {
   const query = useQuery({
